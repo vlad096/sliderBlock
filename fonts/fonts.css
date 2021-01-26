@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "Lato";
+    src: url("Lato-regular.eot");
+    src: url("Lato-regular.eot?#iefix") format("embedded-opentype"),
+    url("Lato-regular.woff") format("woff"),
+    url("Lato-regular.woff2") format("woff2"),
+    url("Lato-regular.ttf") format("truetype"),
+    url('Lato-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("Lato-thin.eot");
+    src: url("Lato-thin.eot?#iefix") format("embedded-opentype"),
+    url("Lato-thin.woff") format("woff"),
+    url("Lato-thin.woff2") format("woff2"),
+    url("Lato-thin.ttf") format("truetype"),
+    url('Lato-thin.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("Lato-black.eot");
+    src: url("Lato-black.eot?#iefix") format("embedded-opentype"),
+    url("Lato-black.woff") format("woff"),
+    url("Lato-black.woff2") format("woff2"),
+    url("Lato-black.ttf") format("truetype"),
+    url('Lato-black.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url("Righteous-regular.eot");
+    src: url("Righteous-regular.eot?#iefix") format("embedded-opentype"),
+    url("Righteous-regular.woff") format("woff"),
+    url("Righteous-regular.woff2") format("woff2"),
+    url("Righteous-regular.ttf") format("truetype"),
+    url('Righteous-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

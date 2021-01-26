@@ -1,0 +1,130 @@
+.trend {
+	background-color: #4f73cd;
+	min-height: 100vh;
+	padding-bottom: 135px;
+}
+
+.trend__title {
+	font-size: 36px;
+	line-height: 1.5;
+	color: #fff;
+	padding-top: 36px;
+	padding-bottom: 16px;
+	font-weight: 800;
+}
+
+.trend__list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 18px;
+}
+
+.trend__list .trend__box:not(:last-child) {
+	margin-right: 14px;
+}
+
+.trend__box {
+	cursor: pointer;
+	user-select: none;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #fff;
+	border-radius: 8px;
+	padding: 8px 20px;
+	margin-bottom: 14px;
+	font-weight: 500;
+	transition: 0.3s background-color;
+}
+
+.trend__box--active {
+	background-color: #80a0f2;
+}
+
+.trend__box--all {
+	background-color: #a5beff;
+}
+
+.trend .swiper-wrapper .swiper-slide {
+	position: relative;
+}
+
+.trend__bg {
+	--bg: var(--image);
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(360deg, rgba(18, 24, 42, 0.6) 0%, rgba(18, 24, 42, 0) 83.2%), var(--bg) center center no-repeat;
+}
+
+.trend__city,
+.trend__country {
+	color: #fff;
+}
+
+.trend__city {
+	padding-bottom: 3px;
+}
+
+.trend__country {
+	padding-bottom: 15px;
+}
+
+.trend__subinfo {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 170px;
+	height: 100%;
+	width: calc(100% + 233px);
+	background-color: #254595;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s opacity;
+}
+
+.swiper-slide {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	padding: 0 12px;
+	min-height: 250px;
+	margin-top: 0px !important;
+	margin-bottom: 30px !important;
+	transition: 0.3s border; /*
+		@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+		only screen and (-moz-min-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-device-pixel-ratio: 1.5) {
+			--bg: var(--retina);
+		}*/
+}
+
+.swiper-slide:hover {
+	border-radius: 8px 0px 0px 8px;
+}
+
+.hide {
+	display: none;
+}
+
+.inner {
+	border: 10px solid red;
+}
+
+.swiper-button-next {
+	right: -40px;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 0px;
+}
+
